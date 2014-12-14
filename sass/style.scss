@@ -1,0 +1,20 @@
+@charset "utf-8";
+//
+// sass template
+//
+@import "compass/reset/";
+@import "compass";
+
+
+
+p {
+	@include border-radius(10px);
+	font-size: 22px;
+	color: #ff0000;
+	&:nth-child(1){
+		color:#ff0000;
+	}
+}
+
+
+
