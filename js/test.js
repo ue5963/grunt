@@ -1,6 +1,7 @@
 (function() {
   hoge(function() {
-    return console.log('aaa');
+    console.log('aaa');
+    return console.log('git test');
   });
 
   hege();
